@@ -8,10 +8,10 @@ def signal_handler(signal, frame):
     sys.exit(0)
 
 # 定义使用的GPIO通道：
-# 36号作为输出，可以点亮一个LED
-# 38号作为输入，可以接一个按钮
-led_pin = 36 # BOARD 编码 36
-but_pin = 38 # BOARD 编码 38
+# 31号作为输出，可以点亮一个LED
+# 37号作为输入，可以接一个按钮
+led_pin = 31 # BOARD 编码 31
+but_pin = 37 # BOARD 编码 37
 
 # 禁用警告信息
 GPIO.setwarnings(False)
